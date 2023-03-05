@@ -41,5 +41,5 @@
 - [@Balachander S K](https://github.com/Balachander9360)
 ## Support
 
-For support, gmail or join our telegram channel.
+For support, gmail querytechassosiations@gmail.com or join our telegram channel.
 
