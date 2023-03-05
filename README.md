@@ -6,8 +6,6 @@
 </p>
 
 
-    
-https://github.com/Query-Tech/Chat-Application/blob/master/image/logo-no-background.png?raw=true
 ## Introduction
 
 **Query Tech** is a application which solves your technical queries using an bot for Developers / Users. Users can also connect with resources  like  public profile.
