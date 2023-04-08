@@ -1,7 +1,7 @@
 # Query Tech
 <p align="center">
   <a  href="#">
-    <img src="https://github.com/Query-Tech/Chat-Application/blob/master/image/logo-no-background.png?raw=true" alt=" Query Tech">
+    <img src="https://github.com/Query-Tech/Chat-Application/blob/master/image/logo-black.png" alt=" Query Tech">
   </a>
 </p>
 
