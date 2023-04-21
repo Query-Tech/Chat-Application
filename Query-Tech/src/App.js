@@ -6,7 +6,6 @@ import Home from './Home.jsx';
 import ForgetPassword from './ForgetPassword.jsx';
 import './App.css';
 import './Login.css';
-import './ForgetPassword.css';
 
 
 function App() {

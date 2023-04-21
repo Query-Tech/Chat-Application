@@ -13,7 +13,7 @@ function Login() {
 
   return (
     <div className="login-container">
-      <h1>Login</h1>
+      <h1 className='title'>Login</h1>
       <p>Don't Have A Account? <Link to='signup'>SignUp</Link></p>
       <form onSubmit={handleSubmit}>
         <label htmlFor="email">Email:</label>

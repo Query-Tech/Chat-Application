@@ -12,7 +12,7 @@ function SignUp() {
 
     return (
         <div className="login-container">
-          <h1>Create your account</h1>
+          <h1 className='title'>Create your account</h1>
           <form onSubmit={handleSubmit}>
             <label htmlFor="name">Name:</label>
             <input type="text" id="name" value={name} onChange={(event) => setName(event.target.value)} />
