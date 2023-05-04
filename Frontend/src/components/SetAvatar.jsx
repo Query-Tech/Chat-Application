@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 import { setAvatarRoute } from "../utils/APIRoutes";
 
 export default function SetAvatar() {
-  const api = "https://api.multiavatar.com";
+  
   
   const navigate = useNavigate();
   const [avatars, setAvatars] = useState([]);
@@ -60,7 +60,7 @@ export default function SetAvatar() {
     const fetchAvatars = async () => {
       const data = [];
       for (let i = 0; i < 4; i++) {
-        const response = await axios.get(`https://picsum.photos/50`, {
+        const response = await axios.get(`https://picsum.photos/id/${Math.floor(Math.random() * 1000) + 1}/50/50`, {
           responseType: "blob",
         });
         const reader = new FileReader();
@@ -76,7 +76,7 @@ export default function SetAvatar() {
       }
     };
     fetchAvatars();
-  }, [api]);
+  }, []);
 
 
 
@@ -100,7 +100,7 @@ export default function SetAvatar() {
                   }`}
                 >
                   <img
-                    src={`data:image/svg+xml;base64,${avatar}`}
+                    src={`data:image/jpeg;base64,${avatar}`}
                     alt="avatar"
                     key={avatar}
                     onClick={() => setSelectedAvatar(index)}
@@ -109,6 +109,7 @@ export default function SetAvatar() {
               );
             })}
           </div>
+          <br />
           <button onClick={setProfilePicture} className="submit-btn">
             Set as Profile Picture
           </button>
